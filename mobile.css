@@ -64,9 +64,6 @@
     border-radius: 0.5rem;
   }
 
-  .psb-reverse {
-    flex-direction: row-reverse;
-  }
   .image {
     position: absolute;
     top: 9rem;
@@ -108,5 +105,9 @@
   .roll {
     position: absolute;
     top: 68vh;
+  }
+
+  .player-2-mobileview {
+    flex-direction: row-reverse;
   }
 }
