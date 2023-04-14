@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pig Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+  </head>
+  <body>
+    <main class="container">
+      <!-- PLAYER 1 ELEMENTS START -->
+      <div class="player-elements player-1 active-player">
+        <div class="player-score-box">
+          <h2 class="web-element player-name">Player 1</h2>
+          <h2 class="mobile-element player-name">P2</h2>
+          <p class="player-score player-score-1">147</p>
+        </div>
+        <div class="web-element current-score-box">
+          <p class="current-score-label">Current</p>
+          <p class="current-score curr-score-player-1">150</p>
+        </div>
+      </div>
+      <!-- PLAYER 1 ELEMENTS END -->
+      <!-- PLAYER 2 ELEMENTS START -->
+      <div class="player-elements player-2">
+        <div class="player-score-box">
+          <h2 class="web-element player-name">Player 2</h2>
+          <h2 class="mobile-element player-name">P2</h2>
+          <p class="player-score player-score-2">17</p>
+        </div>
+        <div class="web-element current-score-box">
+          <p class="current-score-label">Current</p>
+          <p class="current-score curr-score-player-2">150</p>
+        </div>
+      </div>
+      <!-- PLAYER 2 ELEMENTS END -->
+    </main>
+    <img class="image" src="dice/dice-2.png" alt="" />
+    <div class="current-score-box mobile-element">
+      <p class="current-score-label">Current</p>
+      <p class="current-score curr-score">150</p>
+    </div>
+    <button class="btn roll">🎲 Roll</button>
+    <button class="btn hold-score">📩 Hold</button>
+    <button class="btn restart">🔄Restart</button>
+    <script src="script.js"></script>
+  </body>
+</html>
