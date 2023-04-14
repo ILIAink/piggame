@@ -92,8 +92,10 @@ btnHold.addEventListener("click", function () {
   setScore(getActivePlayer(), currentScore);
   currentScore = 0;
   setCurrScore(getActivePlayer(), currentScore);
-  if (scores[0] >= 50 || scores[1] >= 50) playing = false;
-  else {
+  if (scores[0] >= 50 || scores[1] >= 50) {
+    playing = false;
+    dice.src = `winner/P${getActivePlayer()}-wins.png`;
+  } else {
     switchActivePlayer();
   }
 });
