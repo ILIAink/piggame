@@ -33,7 +33,6 @@ main {
 .active-player {
   opacity: 1;
   background-color: rgba(255, 255, 255, 0.555);
-  box-shadow: inset 0 0 7rem rgba(29, 114, 211, 0.719)
 }
 
 .player-elements {
